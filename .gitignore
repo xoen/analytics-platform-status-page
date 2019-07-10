@@ -1,3 +1,6 @@
-exampleSite/public/
+analytical-platform/themes/
+analytical-platform/public/
 public/
-exampleSite/themes/
+analytical-platform/.DS_Store
+analytical-platform/*/.DS_Store
+.DS_Store

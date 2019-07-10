@@ -43,7 +43,7 @@
 
 # What is your status page called?
 # Shows up in the browser bar and meta tags
-title: Eggsample Status
+title: Analytical Platform Status
 
 # Should posts, which have a publish date
 # from the future, be built? Useful for
@@ -105,11 +105,10 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-    - name: API
-      description: The guts of the application.
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
+    - name: Control Panel
+      description: Used to deploy tools and manage data permissions.
+    - name: Kubernetes Cluster
+      description: Set of servers on which tools and applications run.
 
   # What date format to use?
   #
@@ -127,7 +126,7 @@ params:
   #
   # Default: true
   # BOOLEAN; `true`, `false`
-  useLargeHeaderDesign: false
+  useLargeHeaderDesign: true
 
   # Should we show the logo or the title
   # of the status page?
@@ -156,10 +155,14 @@ params:
   # Uncomment to enable.
   #
   # Format:
-  # customTabs:
-  #  -
-  #    name: Name
-  #    link: https://example.com
+  customTabs:
+   - name: Auth0 Status
+     link: http://status.auth0.com/
+   - name: AWS Status
+     link: https://status.aws.amazon.com/
+   - name: GitHub Status
+     link: https://www.githubstatus.com/
+
 
   # Auto refresh the page
   # every ~5 min
@@ -176,7 +179,7 @@ params:
   # in one page
   #
   # NUMERIC; Default: `10`
-  incidentPostsPerPage: 10
+  incidentPostsPerPage: 5
 
   # Colors throughout cState
   # HEX codes without the #

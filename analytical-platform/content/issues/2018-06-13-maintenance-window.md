@@ -7,6 +7,7 @@ severity: disrupted
 affected:
   - API
 section: issue
+published: false
 ---
 
 *Just began* - We're currently shutting down the network. {{< track "2018-06-13 15:54:00" >}}

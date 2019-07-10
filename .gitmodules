@@ -1,0 +1,3 @@
+[submodule "analytical-platform/themes/cstate"]
+	path = analytical-platform/themes/cstate
+	url = https://github.com/cstate/cstate

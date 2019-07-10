@@ -9,6 +9,7 @@ affected:
   - API
   - Media Proxy
 section: issue
+published: false
 ---
 
 *Resolved* -
