@@ -106,9 +106,11 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
     - name: Control Panel
-      description: Used to deploy tools and manage data permissions.
+      description: Main interface used to control the deployment of your tools, manage data permissions, etc...
+      category: UI
     - name: Kubernetes Cluster
-      description: Set of servers on which tools and applications run.
+      description: Servers on which tools and applications run
+      category: Infrastructure
 
   # What date format to use?
   #
@@ -179,7 +181,7 @@ params:
   # in one page
   #
   # NUMERIC; Default: `10`
-  incidentPostsPerPage: 5
+  incidentPostsPerPage: 3
 
   # Colors throughout cState
   # HEX codes without the #

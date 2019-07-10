@@ -1,10 +1,10 @@
 ---
 title: US East Connection Issues
-date: 2018-05-25 04:13:00
+date: 2019-01-01 11:11:11
 resolved: false
-resolvedWhen: 2018-05-25 04:13:59
+# resolvedWhen: 2019-01-01 12:12:12
 # Possible severity levels: down, disrupted, notice
-severity: disrupted
+severity: notice
 affected:
   - Control Panel
   - Kubernetes Cluster

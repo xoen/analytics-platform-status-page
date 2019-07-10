@@ -6,7 +6,7 @@ resolvedWhen: 2018-01-17 16:58:00
 # Possible severity levels: down, disrupted, notice
 severity: disrupted
 affected:
-  - API
+  - Control Panel
 section: issue
 published: false
 ---
