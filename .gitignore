@@ -1,6 +1,5 @@
 analytical-platform/themes/
-analytical-platform/public/
-public/
 analytical-platform/.DS_Store
 analytical-platform/*/.DS_Store
+public
 .DS_Store
